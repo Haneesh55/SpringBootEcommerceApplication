@@ -123,21 +123,7 @@ public class OrdersServiceImpl implements OrdersService {
 		ordersRepository.delete(orders);
 		return true;
 	}
-//
-//	@Override
-//	public OrdersDTO getById(int id) {
-//
-//		Optional<Orders> orders = ordersRepository.findById(id);
-//		if (orders.isPresent()) 
-//		{
-//			
-//			OrdersDTO dto = new OrdersDTO();
-//			BeanUtils.copyProperties(orders.get(), dto);
-//			return dto;
-//		}
-//		throw new ItemNotAvailableException("Item not Available at this time");
-//	}
-	
+
 	@Override
 	public OrdersDTO getById(int id) {
 		Optional<Orders> orders = ordersRepository.findById(id);

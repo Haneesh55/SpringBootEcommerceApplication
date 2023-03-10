@@ -25,9 +25,7 @@ public class ProductSupplier {
 	private Long contactNo;
 	private String emailId;
 
-//	@OneToOne
-//	@JoinColumn(name = "userId")
-//	private User userId;
+
 
 
 
